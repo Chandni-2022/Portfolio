@@ -1,0 +1,28 @@
+body {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .hero {
+        background: #e7f3fe;
+    }
+    
+    .about ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .contact .form-control {
+        margin-bottom: 15px;
+    }
+    .btn-custom {
+        background-color: #8f94fb; /* Updated to the lighter purple color */
+        color: white;
+        border: none;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .btn-custom:hover {
+        background-color: #4e54c8; /* Darker purple on hover */
+        transform: scale(1.05);
+    }
+    
